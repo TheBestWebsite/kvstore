@@ -1,0 +1,8 @@
+[package]
+name = "kvstore"
+version = "0.1.0"
+authors = ["Vivaan Gupta <vivaan-gupta@outlook.com"]
+edition = "2021"
+
+[dependencies]
+
