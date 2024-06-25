@@ -3,7 +3,6 @@ fn main() -> Result<(), std::io::Error> {
     let mut arguments = std::env::args().skip(1);
     let key = arguments.next().unwrap();
     let value = arguments.next().unwrap();
-    println!("This is something.");
     println!("Key: {} Value: {}", key, value);
     write_database(key, value)
 }
